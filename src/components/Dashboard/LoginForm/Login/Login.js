@@ -64,7 +64,7 @@ const Login = () => {
                             <div class="flex justify-center items-center">
                             { newUser ? <div>
                                  <label class="mr-2" >Already have an account?</label>
-                                <a href="#" class=" text-blue-500 transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105" onClick={() => handleLogin()>
+                                <a href="#" class=" text-blue-500 transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105" onClick={() => handleLogin()}>
                                     login
                                 </a>  </div>:
                                <div><label class="mr-2" >Don't have an account?</label>
