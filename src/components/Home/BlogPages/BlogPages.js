@@ -8,6 +8,7 @@ const BlogPages = () => {
     const {id}=useParams();
      const [blogs,setBlogs]=useContext(userBlogs)
      const blogsData=blogs.find(blog =>blog._id === id)
+     console.log(setBlogs)
     return (
         <div>
         <NavbarComponent></NavbarComponent>

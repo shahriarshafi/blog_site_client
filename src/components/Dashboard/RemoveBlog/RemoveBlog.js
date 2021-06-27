@@ -42,7 +42,7 @@ const RemoveBlog = () => {
                  
                     <td><h5>{index + 1}</h5></td>
                     <td><h5>{blog.blogTitles}</h5></td>
-                    <td><img src={blog.image} class="rounded" style={{height: "50px", height: "50px"}} alt="..."></img></td>
+                    <td><img src={blog.image} class="rounded" style={{height: "50px"}} alt="..."></img></td>
                     <td><h5><FontAwesomeIcon icon={faTrash} onClick={()=>{deleteBlogItem(blog._id)}} style={{cursor: "pointer", color:'red', fontSize:'25px'}}></FontAwesomeIcon></h5></td>
                      
                 </tr>

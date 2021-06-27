@@ -21,13 +21,13 @@ const Footer = () => {
 
             <ul class="list-unstyled mt-5">
               <li>
-                <a href="https://www.facebook.com/"><img src={Facebook} style={{width: '40px',float: 'left',padding:'5px'}}></img></a>
+                <a href="https://www.facebook.com/"><img src={Facebook} style={{width: '40px',float: 'left',padding:'5px'}}  alt="facebook"></img></a>
               </li>
               <li>
-                <a href="https://www.instagram.com/"><img src={Instagram} style={{width: '40px',float: 'left',padding:'5px'}}></img></a>
+                <a href="https://www.instagram.com/"><img src={Instagram} style={{width: '40px',float: 'left',padding:'5px'}}  alt="instagram"></img></a>
               </li>
               <li>
-                <a href="https://twitter.com/"><img src={Twitter} style={{width: '40px',padding:'5px'}}></img></a>
+                <a href="https://twitter.com/"><img src={Twitter} style={{width: '40px',padding:'5px'}}  alt="twitter"></img></a>
               </li>
                
             </ul>
@@ -45,7 +45,6 @@ const Footer = () => {
               <li>
                 <a href="#!" class="text-lg text-white text-decoration-none font-weight-bold">+88-01782265619</a>
               </li>
-               
             </ul>
           </div>
          
