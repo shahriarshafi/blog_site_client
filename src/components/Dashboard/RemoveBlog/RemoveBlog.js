@@ -17,6 +17,8 @@ const RemoveBlog = () => {
             setDeleteBlog("Your Item is Deleted Successfully!!")
         })
     }
+    console.log(setBlogs);
+    console.log(deleteBlog)
     return (
         <div>
             <NavbarComponent></NavbarComponent>
